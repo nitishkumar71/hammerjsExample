@@ -1,0 +1,19 @@
+page-home {
+
+}
+.box {
+    margin: 50px 0 0 50px;
+    width:200px;
+    height:200px;
+    background-color: #9933ff;       
+}
+.box .label{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 45% 0 0 0;
+}
+.box:hover {
+    cursor:pointer;
+}

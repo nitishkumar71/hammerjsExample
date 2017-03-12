@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Hammer JS Example
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="box" rotateCustom (angleChange)="onRotation($event)" [style.transform]="transformStyle">
+    <div class="label">{{title}}</div>
+  </div>
+</ion-content>
